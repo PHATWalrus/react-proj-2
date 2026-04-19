@@ -13,7 +13,7 @@ import { Analytics } from './pages/Analytics/Analytics';
 function App() {
   return (
     <ApplicationProvider>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <div className="app-layout">
           <Navbar />
           <main className="container">
